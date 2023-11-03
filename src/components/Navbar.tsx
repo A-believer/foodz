@@ -4,7 +4,9 @@ type Props = {}
 
 const Navbar = (props: Props) => {
   return (
-    <nav className='font-pp'>Navbar</nav>
+    <nav className='font-pp'>
+        
+    </nav>
   )
 }
 
