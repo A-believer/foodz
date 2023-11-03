@@ -9,7 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {},
-      colors: {},
+      colors: {
+        white: "#ffffff",
+        black: "#000000",
+        green: "#04B90B",
+        grey: "#777E90"
+      },
       fontFamily: {
         alice: ['Alice', 'serif'],
         pp: ['Poppins', 'sans-serif'],
