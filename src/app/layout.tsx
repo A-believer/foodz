@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body className='max-w-[1440px] mx-auto'>
+      <body className='max-w-[1440px] mx-auto lg:px-[72px] md:px-12 px-6'>
         <Navbar/>
         {children}
         <Footer/>
